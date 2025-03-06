@@ -1,0 +1,111 @@
+ .what_we_do_master {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .main_container_we_do {
+    width: 1300px;
+ }
+ 
+ .what-do-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+
+ .what-do-div-container {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: 350px;
+    width: 550px; 
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px 0px 10px 0px;
+ }
+
+ .what-do-div-container div {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    /* border: 1px dotted brown; */
+    margin-bottom: 15px;
+ }
+
+ .what-do-div-container div h4 {
+    margin-left: 5px;
+ }
+
+ .what-do-div-container div div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* border: 1px dotted brown; */
+    text-align: left;
+    width: 100%;
+ }
+
+ .what-do-div-container div img {
+    height: 80px;
+ }
+
+ .what-do-div-container p { 
+    /* text-align-last: center; */
+    text-align: left;
+    /* font-size: 19px; */
+ }
+
+@media only screen and (max-width:1150px){
+    .what-do-div-container {
+        width: 400px; 
+    }
+    .what-do-div-container div img {
+        height: 70px;
+     }
+}
+
+@media only screen and (max-width:950px){
+    .what-do-div-container {
+        width: 350px;
+        height: 400px;
+    }
+    .what-do-div-container div img {
+        height: 60px;
+     }
+}
+
+@media only screen and (max-width:850px){
+    .what-do-div-container {
+        width: 300px;
+        height: 450px;
+    }
+    .what-do-div-container div img {
+        height: 50px;
+     }
+}
+
+@media only screen and (max-width:750px){
+    .what-do-div-container {
+        width: 270px;
+        height: 490px;
+    }
+    .what-do-div-container div {
+        grid-template-columns: 30% 70%;
+     }
+}
+
+@media only screen and (max-width:650px){
+    .what-do-div-container {
+        width: 240px;
+        height: 520px;
+    }
+    .what-do-div-container div img {
+        height: 40px;
+     }
+}
+
+@media only screen and (max-width:600px){
+    .what-do-div-container {
+        width: 80%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,18 @@
+.carousel_master {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel_container {
+    max-width: 1200px;
+    height: 300px;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.carousel_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}

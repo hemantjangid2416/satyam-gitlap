@@ -1,0 +1,145 @@
+/* .master {
+    width: 100%;
+} */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 240px;
+    
+    /* border: 1px solid blueviolet; */
+}
+
+.team_name{
+    text-align: center;
+    margin-top: 7px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#team__img {
+    width: auto;
+    height: 150px;
+    border-radius: 10px;
+}
+
+#one {
+    padding: 13px;
+    height: 100%;
+    text-align: center;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#two {
+    padding: 13px;
+    height: 100%;
+    text-align: center;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#third {
+    padding: 13px;
+    height: 100%;
+    text-align: center;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#forth {
+    padding: 13px;
+    height: 100%;
+    text-align: center;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+@media only screen and (max-width:1000px) {
+    .container { 
+        height: 270px;
+    }
+    .team_name{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .container { 
+        height: 230px;
+    }
+    .team_name{
+        font-size: 14px;
+    }
+    #team__img {
+        width: auto;
+        height: 110px;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+
+    .container { 
+        justify-content: space-around;
+        height: auto;
+    }
+    .team_name{
+        font-size: 15px;
+    }
+    #one{
+        width: 45%;
+        height: 225px;
+        margin: 10px 0px 10px 0px;
+    }
+    #two{
+        width: 45%;
+        height: 225px;
+        margin: 10px 0px 10px 0px;
+    }
+    #third{
+        width: 45%;
+        height: 225px;
+        margin: 10px 0px 10px 0px;
+    }
+    #forth{
+        width: 45%;
+        height: 225px;
+        margin: 10px 0px 10px 0px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+
+    .team_name{
+        font-size: 13px;
+    }
+    #one{
+        
+        height: 235px;
+        
+   }
+    #two{
+        
+        height: 235px;
+        
+   }
+    #third{
+        
+        height: 235px;
+        
+   }
+    #forth{
+        
+        height: 235px;
+        
+   }
+}

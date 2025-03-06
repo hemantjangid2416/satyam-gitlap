@@ -1,0 +1,85 @@
+.campaign_master {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+} 
+ 
+ #campaigns-div {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    width: 1300px;
+    /* padding: 5%; */
+ }
+
+ /* P {
+   text-align: left;
+} */
+
+
+
+ .campaigns-div-container-1 {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: 100%;
+    max-width: 550px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
+ }
+
+ #campaigns-div div p {
+    font-size: 17px;
+    margin-top: 10px;
+    text-align: left;
+    font-style: serif;
+ }
+
+
+ .campaigns-div-container-1 img {
+    max-height: 400px;
+    width: auto;
+ }
+
+
+
+
+ .campaigns-div-container-2 {
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+   height: 100%; 
+   max-width: 550px;
+   border-radius: 10px;
+   text-align: center;
+   padding: 15px;
+   /* margin: 10px; */
+   margin: 10px 0px 10px 0px;
+   /* border: 2px solid papayawhip; */
+}
+.campaigns-div-container-2 p{
+   /* padding-bottom: 25px; */
+}
+
+
+
+.campaigns-div-container-2 img {
+   max-height: 400px;
+   width: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+   .campaigns-div-container-1 {
+      width: 80%;
+   }
+   .campaigns-div-container-2 {
+      width: 80%;
+   }
+}
+
+.donate_component {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
